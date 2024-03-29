@@ -1,0 +1,10 @@
+body{
+    /* background-color: black; */
+    color: rgb(16, 2, 2);
+    background: rgb(119, 93, 93);
+    text-align: center;
+}
+ul{
+    font-size: 30px;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %} 
+{% comment %} this is jinga2 syntax {% endcomment %}
+
+<html lang='en' dir='ltr'>
+    <head>
+        <meta charset="utf-8">
+        <title>Static files Demo</title>
+    </head>
+    <body>
+        <h2>this is adding the image into django..</h2>
+        <h2>Here accessing the data from views dictionary</h2>
+        <ul>
+            <li>{{key1}}</li>
+            <li>{{key2}}</li>
+            <li>{{key3}}</li>   
+        </ul>
+        <img src="{% static "images/image1.png" %}" , alt="opps image not found!!" />
+    </body>
+</html>

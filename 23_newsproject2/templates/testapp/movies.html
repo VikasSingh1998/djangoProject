@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Movies Information</title> 
+        <link rel="stylesheet" href="{% static "css/movies.css" %}" />       
+    </head>
+    <body>
+       <h1>{{head_msg}}</h1>
+       <ul>
+        <li>{{m1}}</li>
+        <li>{{m2}}</li>
+        <li>{{m3}}</li>
+       </ul>
+
+       <img src="{% static 'images/image1.jpg' %}" alt="Example Image">
+       <img src="{% static 'images/image2.jpg' %}" alt="Example Image">
+       <img src="{% static 'images/image3.jpg' %}" alt="Example Image">
+       <img src="{% static 'images/image4.jpg' %}" alt="Example Image">
+    </body>
+</html>

@@ -1,0 +1,16 @@
+create the project
+create the appliaction inside the project
+add appliaction inside the settings.py
+----------------
+create the templates folder and inside the template folder we have to create the subfolder for each appliaction and inside that subfoler we will keep the html files realted to the particular applications.
+----------------
+create the static folder inside the main project.
+In the static folder we can keep our images,css files,videos, so we have to create the folder for these.
+WE have to do configuration for static folder inside the settings.py
+----------------
+define the views inside the views.py(inside the appliaction)
+Generally in view, for html  codes we ahve defined the templates,
+so we have to take html files for applications inside the template.
+----------------
+define the urls at appliaction level and then link it to the project level
+----------------

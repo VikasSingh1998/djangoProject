@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Durga soft news portal</title>
+        <link rel="stylesheet" href="{% static "css/index.css" %}" />
+    </head>
+    <body>
+        <h2>{{head_msg}}</h2>
+        {% comment %} <img src="{% static "images/image1.jpg" %}" , alt="" /> {% endcomment %}
+        <ul>
+            <li>{{sub_msg1}}</li>        
+            <li>{{sub_msg2}}</li>        
+            <li>{{sub_msg3}}</li>        
+            <li>{{sub_msg4}}</li>        
+        </ul>
+    </body>
+</html>
