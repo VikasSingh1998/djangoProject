@@ -119,7 +119,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS=[
-    STATIC_DIR,
+    STATIC_DIR
 ]
 # STATICFILES_DIRS ==> this name is fiexed
 # Default primary key field type
