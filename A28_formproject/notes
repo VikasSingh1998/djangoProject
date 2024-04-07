@@ -1,0 +1,61 @@
+1. first we have to create the project
+2. we have to create the application inside the project
+3. Add the application inside the project
+
+4. we have to create the forms.py inside the application and we will write all the forms related to our application we will write inside forms.py
+==> now implent the form inside forms.py
+
+5. now we hve to go inside the views.py
+==> inside views.py we have to create the object of forms, we have to import it
+==> we have to create the view
+==> we will create the object of the form and send it to html file.
+
+6. Inside the main project create the template folder and do the required activity inside the settings.py
+==> Inside the template we have to create the folder for each app to store the html files related to that app
+==> so create the testapp folder inside the template folder.
+==> inside templates/testapp create the input.html
+
+7. Create the static folder inside main project folder and do the required setting inside settings.py 
+=> inside the static we create the css and images
+==> inside css create the form1.css
+
+8. Insode the html file use the form {{form}}
+
+9. give the urls at app level and link this at project level.
+
+10. now start the server -==> py manage.py runserver
+===================================================
+1. First we sending the request based on url 
+2. request will go to the views.py
+3. views.py is creating the form object and sending it to the templates file.
+4. now tempalte file will display the form for end user.
+5. now end user will fill the form and type submit button.
+6. Now we have to process the input inside the views.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
