@@ -1,0 +1,7 @@
+1. create the project
+2. create the app and add the app in settings.py 
+3. now we have to make forms.py file inside the app.
+4. views.py is responsible to create the form object and send this form to html file to display.
+=======================================
+Form validations
+=======================================
