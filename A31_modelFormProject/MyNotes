@@ -1,0 +1,12 @@
+1. create the project
+2. create the app inside the project
+3. add the app inside settings.py
+4. create the templates and static folder and to the required CONFIGURATION in settings.py. create the requred files and folder in it.
+--------------------------------------------
+==> now we will create the model class inside the models.py and do the required activity.
+---------------------------------------------
+==> now create the forms.py in testapp and do the required task
+
+==> now go to the views.py and do the tasks.
+
+
